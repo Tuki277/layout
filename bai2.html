@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu li {
+            background-color: #8AD385;
+            height: 20px;
+            width: 200px;
+            padding: 5px 10px;
+            list-style: none;
+            border-color: #ff0000;
+            border-style: solid;
+            display: block;
+            position: relative;
+        }
+
+        .menu li ul {
+            display: none;
+            padding: 0;
+            margin-left: 210px;
+            margin-top: -30px
+        }
+
+        .menu li:hover ul{
+            display: block;
+            background-color: #CDE2CD;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Gallery</a>
+            <ul>
+                <li><a href="#">Summer 2012</a></li>
+                <li><a href="#">Everyday</a></li>
+                <li><a href="#">Love</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

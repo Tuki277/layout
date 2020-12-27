@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .header img {
+            width: 1000px;
+            height: 200px;
+        }
+
+        .menu ul li {
+            display: block;
+            border: 1px black solid;
+            margin-left: -5px;
+            background-color: yellow;
+            padding: 15px;
+            height: 20px;
+            width: 100px;
+            text-align: center;
+        }
+
+        .menu ul li:hover {
+            background-color: red;
+        }
+
+        .menu {
+            float: left;
+        }
+
+        .menu ul li:hover ul {
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color: black
+        }
+
+        .menu ul li ul {
+            display: none;
+            margin-top: -35px;
+            margin-left: 80px;
+            border-bottom: 1px black solid;
+            position: relative;
+        }
+
+        .section {
+            width: 300px;
+            height: 300px;
+            float: left;
+        }
+
+        .content img {
+            width: 20%;
+            height: 80%;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .content {
+            width: 1000px;
+            height: 300px;
+        }
+
+        .footer {
+            clear: both;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img src="./bgc.jpg" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Truyện Blog</a></li>
+                <li><a href="#">Truyện ngắn</a>
+                    <ul>
+                        <li><a href="#">Truyện ngắn về tình yêu</a></li>
+                        <li><a href="#">Truyện ngắn về gia đình</a></li>
+                        <li><a href="#">Truyện ngắn về bạn bè</a></li>
+                        <li><a href="#">Truyện ngắn về đời sống</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Sách hay</a></li>
+                <li><a href="#">Tâm sự</a></li>
+                <li><a href="#">Tiểu thuyết</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Truyện cười</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </div>
+        <div class="section">
+            <h3>Tủ sách</h3>
+            <ul>
+                <li><a href="#">Truyện nổi bật</a></li>
+                <li><a href="#">Truyện mới</a></li>
+                <li><a href="#">Tiểu thuyết mới</a></li>
+                <li><a href="#">Truyện kiếm hiệp mới</a></li>
+                <li><a href="#">Truyện khoa học viễn tưởng</a></li>
+                <li><a href="#">Truyện trinh thám</a></li>
+                <li><a href="#">Góc cười</a></li>
+                <li><a href="#">Góc tâm sự</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <img src="./bgc.jpg" alt="">
+            <p>
+                Truyện kể về giai đoạn mà đời người ai cũng từng trải qua nhưng đôi khi trong cuộc sống bộn bề với cơm
+                áo gạo tiền và những nỗi lo không đặt hết tên, chúng ta đã ít nhiều quên mất nó từng tồn tại, đó là:
+                Tuổi thơ. Tuổi thơ trong truyện Nguyễn Nhật Ánh không giống như bây giờ - khi người ta có nhiều thứ để
+                chơi và nhiều nơi để chọn như ra công viên nước lướt ván hoặc đắm mình trong các game online hiện đại.
+                Tuổi thơ trong truyện Nguyễn Nhật Ánh là khi bạn còn hòa mình với thiên nhiên, khi bạn thấy góc vườn nhà
+                mình sao rộng thế và là khi bạn "mặc nguyên quần áo dầm mưa ngoài trời" hay "bứt lá, lượm nắp keng chơi
+                bày hàng hay lùng sục các bờ hào tìm hoa dủ dẻ".
+            </p>
+        </div>
+        <div class="footer">
+            Bản quyền CNTT_HAUI.com
+        </div>
+    </div>
+</body>
+
+</html>
