@@ -8,18 +8,87 @@
         .wrapper {
             width: 1000px;
             margin: auto;
+            border: 1px solid black;
+
         }
 
         .header {
             width: 1000px;
-            height: 300px;
-            background-color: brown;
+            height: 100px;
+        }
+
+        .header div ul li {
+            display: inline-block;
+            vertical-align: middle;
+            width: 50px;
+            height: 20px;
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .header img {
+            width: 300px;
+            height: 100px;
+            float: left;
+            padding-right: 100px;
+            margin-top: -17px
         }
 
         .nav {
             width: 1000px;
-            height: 300px;
-            background-color: black;
+            height: 230px;
+        }
+
+        .nav img {
+            width: 1000px;
+            height: 200px;
+            margin-top: -16px;
+        }
+
+        .menu {
+            width: 1000px;
+        }
+
+        .menu ul {
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+
+        .menu ul li {
+            display: inline-block;
+            vertical-align: middle;
+            border: 1px black solid;
+            width: 95px;
+            height: 20px;
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-left: -40px;
+            margin-right: 35px;
+        }
+
+        .menu ul li ul li {
+            display: none;
+            position: relative;
+            background-color: white
+        }
+
+        .menu ul li:hover li {
+            display: block;
+        }
+
+        .menu li:hover {
+            background-color: orange;
+        }
+
+        .menu ul li ul {
+            margin-top: 8px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
         }
 
         .content {
@@ -59,10 +128,31 @@
             margin-top: 230px;
         }
 
+        .tren {
+            display: block;
+            border: 1px black solid;
+            height: 240px;
+            padding-top: 100px;
+        }
+
+        .duoi {
+            display: block;
+            border: 1px black solid;
+            height: 115px;
+            padding-top: 50px;
+        }
+
+        .tren li {
+            list-style: none;
+        }
+
+        .duoi li {
+            list-style-type: none;
+        }
+
         .content-left {
-            width: 200px;
-            height: 600px;
-            background-color: blue;
+            width: 180px;
+            height: 550px;
             float: left;
         }
 
@@ -80,7 +170,7 @@
     <div class="wrapper">
 
         <div class="header">
-            <!-- <img src="./bgc.jpg" alt="">
+            <img src="./bgc.jpg" alt="">
             <div>
                 <ul>
                     <li><a href="#">The 1</a></li>
@@ -91,16 +181,23 @@
                     <li><a href="#">The 6</a></li>
                     <li><a href="#">The 7</a></li>
                 </ul>
-            </div> -->
+            </div>
         </div>
 
         <div class="nav">
-            <!-- <div class="menu">
+            <div class="menu">
                 <ul>
                     <li><a href="#">The 1</a></li>
                     <li><a href="#">The 2</a></li>
                     <li><a href="#">The 3</a></li>
-                    <li><a href="#">The 4</a></li>
+                    <li><a href="#">The 4</a>
+                        <ul>
+                            <li><a href="#">The 1</a></li>
+                            <li><a href="#">The 2</a></li>
+                            <li><a href="#">The 3</a></li>
+                            <li><a href="#">The 4</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">The 5</a></li>
                     <li><a href="#">The 6</a></li>
                     <li><a href="#">The 7</a></li>
@@ -109,7 +206,7 @@
                     <li><a href="#">The 10</a></li>
                 </ul>
             </div>
-            <img src="./bgc.jpg" alt=""> -->
+            <img src="./bgc.jpg" alt="">
         </div>
 
         <div class="content">
@@ -170,8 +267,8 @@
         </div>
 
         <div class="content-left">
-            <!-- <div>
-                <ul class="tren">
+            <div>
+                <ul class="tren" style="padding-left: 67px;">
                     <li><a href="#">The 1</a></li>
                     <li><a href="#">The 2</a></li>
                     <li><a href="#">The 3</a></li>
@@ -181,12 +278,12 @@
             </div>
 
             <div>
-                <ul class="duoi">
+                <ul class="duoi" style="padding-left: 67px;">
                     <li><a href="#">The 1</a></li>
                     <li><a href="#">The 2</a></li>
                     <li><a href="#">The 3</a></li>
                 </ul>
-            </div> -->
+            </div>
         </div>
 
         <div class="footer">
