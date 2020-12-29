@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper {
+            width: 1500px;
+            margin: auto;
+        }
+
+        .header {
+            width: 1000px;
+            height: 250px;
+        }
+
+        .header a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .header img {
+            width: 300px;
+            height: 200px;
+            float: left;
+            margin-right: 50px;
+        }
+
+        .menu {
+            width: 100px;
+            height: 200px;
+            float: left;
+            margin-right: 50px;
+        }
+
+        .menu ul li ul {
+            list-style: none;
+            width: 500px;
+            display: none;
+            margin-left: -50px;
+        }
+
+        .menu ul li ul li {
+            padding-top: 20px;
+        }
+
+        .menu ul li:hover ul {
+            display: block;
+            position: relative;
+        }
+
+        .search-box {
+            margin-top: 20px;
+            height: 150px;
+            float: left;
+            margin-right: 50px;
+        }
+
+        .acc {
+            height: 200px;
+        }
+
+        .nav {
+            width: 300px;
+            height: 500px;
+            float: left;
+        }
+
+        .nav li {
+            list-style: none;
+            line-height: 40px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .content {
+            width: 700px;
+            height: 500px;
+            float: left;
+        }
+
+        .content div {
+            width: 700px;
+            height: 100px;
+        }
+
+        .content h3 {
+            float: left;
+        }
+
+        .content input {
+            margin-top: 25px;
+            float: right;
+        }
+
+        .content .product {
+            text-align: center;
+            width: 150px;
+            height: 200px;
+            float: left;
+            padding-left: 25px;
+        }
+
+        .content img {
+            width: 150px;
+            height: 300px;
+        }
+
+        .footer {
+            width: 1000px;
+            height: 300px;
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img src="./bgc.jpg" alt="">
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Tat ca danh muc</a>
+                        <ul>
+                            <li><a href="#">Voucher giam toi 10%</a></li>
+                            <li><a href="#">Di - An - Choi</a></li>
+                            <li><a href="#">Suc Khoe - Vinmec</a></li>
+                            <li><a href="#">Mobile - Tablet</a></li>
+                            <li><a href="#">Dien tu - Cong nghe</a></li>
+                            <li><a href="#">Dien gia dung</a></li>
+                            <li><a href="#">Thuc pham tuoi song</a></li>
+                            <li><a href="#">Hang tieu dung</a></li>
+                            <li><a href="#">Thoi Trang</a></li>
+                            <li><a href="#">My Pham</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-box" style="size: 100px;">
+                <input type="text" value="tim kiem">
+                <input type="button" value="Tim Kiem">
+            </div>
+            <div class="acc">
+                <h4>Danh nhap va dang ki</h4>
+                <h4>tai khoan   </h4>
+            </div>
+            <div>
+                <p><a href="#">Suc khoe</a> > <a href="#">cai deo gi day deo thay</a></p>
+            </div>
+        </div>
+
+        <div class="nav">
+            <h4>Suc khoa va sac diem</h4>
+            <ul>
+                <li><a href="#">Tinh dau va spa</a></li>
+                <li><a href="#">Nuoc hoa</a></li>
+                <li><a href="#">My pham danh cho nam</a></li>
+                <li><a href="#">Cham soc mat</a></li>
+                <li><a href="#">Cham soc toc</a></li>
+                <li><a href="#">Cham soc ca nhan va suc khoe</a></li>
+                <li><a href="#">Dung cu the thao</a></li>
+                <li><a href="#">Vitamin va thuc pham chuc nang</a></li>
+                <li><a href="#">Cham soc toan than</a></li>
+                <li><a href="#">Trang diem</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div>
+                <h3>Suc khoe va sac dep</h3>
+                <input type="texc" value="sap xep">
+                <input type="texc" value="sap xep">
+            </div>
+            
+            <div class="product">
+                <img src="./bgc.jpg" alt="">
+                <p>deo thay cc gi</p>
+                <p>36492364 dong</p>
+            </div>
+            <div class="product">
+                <img src="./bgc.jpg" alt="">
+                <p>deo thay cc gi</p>
+                <p>36492364 dong</p>
+            </div>
+            <div class="product">
+                <img src="./bgc.jpg" alt="">
+                <p>deo thay cc gi</p>
+                <p>36492364 dong</p>
+            </div>
+            <div class="product">
+                <img src="./bgc.jpg" alt="">
+                <p>deo thay cc gi</p>
+                <p>36492364 dong</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3>thuong hieu</h3>
+            <input type="text" value="tim kiem">
+        </div>
+    </div>
+</body>
+</html>
