@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form">
+        Nhap ma the <input type="text" name="ip1" id="id1">
+        <br>
+        <br>
+        <input type="button" value="Nạp" onclick="card()">
+    </form>
+</body>
+<script>
+    function card (){
+        var a = document.form.ip1.value
+        console.log({a})
+        var a1 = a.slice(0,4)
+        console.log({a1})
+        var a2 = a.slice(5,9)
+        console.log({a2})
+        var a3 = a.slice(10,14)
+        console.log({a3})
+        var a4 = a.slice(15,19)
+        console.log({a4})
+
+        if (a1.length == a2.length && a2.length == a3.length && a3.length == a4.length && a4.length == a1.length)
+        {
+            alert('nap the thanh cong')
+        }
+        else {
+            alert('nap the that bai')
+        }
+    }
+</script>
+</html>
